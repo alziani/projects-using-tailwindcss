@@ -7,5 +7,48 @@
 
     <title>Image Gallery</title>
   </head>
-  <body></body>
+  <body>
+    <div class="bg-cyan-100 min-h-screen px-[200px] py-5 md:p-5">
+      <div
+        class="shadow-xl flex flex-col p-10 md:p-[170px] bg-white rounded-2xl"
+      >
+        <ul
+          class="flex text-center flex-col space-y-10 justify-center md:flex-row md:justify-end md:space-y-0 space-x-6"
+        >
+          <li>Vector</li>
+          <li>Illustrations</li>
+          <li>Images</li>
+          <li>Icons</li>
+        </ul>
+        <div
+          class="flex-col flex mt-5 space-y-5 md:space-y-0 md:items-center md:flex-row md:justify-between md:mt-20"
+        >
+          <div
+            class="flex items-center justify-center space-between border-b-2 border-gray-200"
+          >
+            <input type="text" placeholder="Search" class="p-5 outline-none" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="{1.5}"
+              stroke="currentColor"
+              class="w-8 h-8 hover:scale-105 hover:cursor-pointer duration-100"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+              />
+            </svg>
+          </div>
+          <button
+            class="bg-black text-white py-4 md:px-[60px] rounded-md font-bold hover:border-black border hover:bg-white hover:text-black transition duration-300"
+          >
+            Upload
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
